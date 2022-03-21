@@ -1,0 +1,24 @@
+﻿{
+  "name": "SSR2HeroKu",
+  "description": "Deploy SSRoT to Heroku.",
+  "keywords": ["node","js","Docker"],
+  "env": {
+    "APP_SITE": {
+      "description": "App 站点名称，格式如下示范值。请一定与上面的 App name 完全一致填写，不能啥都不填，因为示范值 YourAppName 是无效的。",
+      "value": "MyAppName.herokuapp.com"
+    },
+
+    "PASSWORD": {
+      "description": "随机 密码, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
+      "value": "b425e8f3-76b7-4b94-8905-32ce21ae54ec"
+    },
+
+    "SECRET_PATH": {
+      "description": "随机 URL 路径, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
+      "value": "15802270-039d-4bc6-a50d-2ee8f512c1ba"
+    }
+  },
+  "website": "https://github.com/jig9jgjgecvse56/ssort",
+  "repository": "https://github.com/jig9jgjgecvse56/ssort",
+  "stack": "container"
+}
